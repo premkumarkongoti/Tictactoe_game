@@ -12,7 +12,7 @@ function QuoteComponent() {
     // Function to fetch a new quote from the API
     const fetchNewQuote = async () => {
       try {
-        const response = await fetch(' https://api.adviceslip.com/');
+        const response = await fetch(' https://api.adviceslip.com/advice');
         const data = await response.json();
 
         // Extract the advice from the API response
