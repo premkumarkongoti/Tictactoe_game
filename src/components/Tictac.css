@@ -1,0 +1,137 @@
+.container{
+    width: 416px;
+    height: 700px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    background: #192A32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.smallcontainer{
+    justify-content: center;
+    align-items: center;
+    width: 307px;
+    height: 157px;
+    border-radius: 7px;
+    background: #1F3540;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    margin-bottom: 25px;
+    color: white;
+}
+.pickplayer{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 77px;
+    padding-bottom: 20px;
+    padding-top: 15px;    
+}
+.buttons{
+    border-radius: 5px;
+    background: #192A32;
+    height: 70px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 270px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+.btn1{
+    background-color: #192A32;
+    width: 120px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+.btn2{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    background-color: #192A32;
+    width: 120px;
+    cursor: pointer;
+    margin-left: 2px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn1:hover,
+.btn2:hover {
+    background-color: #D9D9D9;
+}
+
+
+
+
+
+.images{
+    margin-left: 128px;
+    margin-bottom: 15px;
+
+    
+}
+.images img {
+    padding: 5px;
+}
+.newgame1{
+    width: 307px;
+    flex-shrink: 0;
+    height: 40px;
+    border-radius: 5px;
+    background: #F2B237;
+    margin-bottom: 10PX;
+    color: #192A32;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    cursor: pointer;
+}
+.newgame2{
+    width: 307px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #32C4C3;
+    margin-bottom: 45PX;
+    color: #192A32;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    cursor: pointer;
+}
+.invite{
+    width: 225px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F2B237;
+    margin-left: 45px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: #192A32;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    align-items: center;
+}

@@ -1,0 +1,251 @@
+.gamecontainer{
+    width: 416px;
+    height: 700px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    background: #192A32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.boxes{
+    display: flex;
+    width: 86px;
+    height: 86px;
+    border-radius: 10px;
+    background: #1F3540;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin: 25px;
+
+}
+.board{
+    height: 600px;
+    width: 590px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 86px;
+    height: 50px;
+    border-radius: 10px;
+    background: #31C4BE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin: 25px;
+    font-size: 11px;
+    font-weight: 800;
+    flex-direction: column;
+    
+    
+
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 86px;
+    height: 50px;
+    border-radius: 10px;
+    background: #A8BEC9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin: 25px;
+    font-size: 11px;
+    font-weight: 800;
+    flex-direction: column;
+    
+
+}
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 86px;
+    height: 50px;
+    border-radius: 10px;
+    background: #F2B237;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin: 25px;
+    font-size: 11px;
+    font-weight: 800;
+    flex-direction: column;
+    
+
+}
+.box4{
+    display: flex;
+    width: 86px;
+    height: 45px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin: 25px;
+    
+    
+
+}
+.box5{
+    display: flex;
+    width: 86px;
+    height: 45px;
+    border-radius: 10px;
+    background: #1F3540;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin: 25px;
+    color:  #A8BEC9;
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.box6{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background: #A8BEC9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin: 25px;
+    margin-left: 65px;
+    margin-top: 35px;
+    
+
+}
+.box6 img {
+    height: 25px;
+}
+.box4 img{
+    height:33px;
+    padding: 5px;
+}
+.xscore{
+    font-size: 15px;
+    font-weight: 800;
+}
+.tscore{
+    font-size: 15px;
+    font-weight: 800;
+}
+.oscore{
+    font-size: 15px;
+    font-weight: 800;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 222px;
+    width: 416px;
+    color: black;
+    position: absolute;
+    background-color: #192A32;
+    
+}
+.visible{
+    
+    align-items: center;
+    justify-content: center;
+}
+.hidden{
+    display: none;
+}
+.message1{
+    width: 99px;
+    height: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    size: 15px;
+    color:#ACC2CD;
+    
+    
+
+}
+.message2{
+    width: 299px;
+    height: 50px;
+    color: #F7B336;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 25px;
+    
+}
+.quit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7B336;
+    height: 33px;
+    width: 125px;
+    color: black;
+    font-size: medium;
+    font-weight: 900;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.next{
+    background: #31C4BE;
+    height: 33px;
+    width: 125px;
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+
+    
+
+}
+.result-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.rbuttons{
+  display: flex;  
+ justify-content: space-around; 
+ gap: 30px;  
+}
+
+.resultMessage3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 222px;
+    width: 416px;
+    color: #F7B336;
+    display: flex;
+    font-weight: 900;
+    font-size: 25px;
+    position: absolute;
+    background-color: #192A32;
+    
+
+
+}
+.quitContainer{
+    position: absolute;
+    margin-right: 415px;
+    margin-bottom: 200px;
+
+}

@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Tictac from './components/Tictac';
+import QuoteComponent from './components/QuoteComponent';
+import Game from './components/Game';
+import { createPath } from 'react-router';
+
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+      <QuoteComponent/>
+      
+        <Routes>
+        <Route path="/" element={<Tictac />} />
+        <Route path="/game" element={<Game />} />
+        <Route path="/tictac" element={<Tictac />} />
+
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
